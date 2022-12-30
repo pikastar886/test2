@@ -142,6 +142,13 @@ console.log(val2);
 
 // let変数は再宣言不可
 //let val2 = "再宣言";
+
+var val4 = {
+  name: "じゅげむ",
+  age: 99
+};
+val4.name = "jyugemu";
+console.log(val4);
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -167,7 +174,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38705" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45229" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
