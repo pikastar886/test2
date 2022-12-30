@@ -23,5 +23,13 @@
  // let変数は再宣言不可
  //let val2 = "再宣言";
  
+ const val4 = {
+  name: "じゅげむ",
+  age: 99,
+};
+val4.name = "jyugemu";
+console.log(val4);
+
+ 
 
 
